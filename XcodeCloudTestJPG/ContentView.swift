@@ -10,6 +10,7 @@ import CoreData
 
 struct ContentView: View {
     //JAilson
+    //
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
